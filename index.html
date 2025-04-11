@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaywant Avhad's Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Aayush Chavan's Website</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
-        <h1>Welcome to Jaywant Awhad's Website</h1>
+        <nav class="navbar">
+            <h1 class="logo">Aayush Chavan</h1>
+        </nav>
     </header>
 
-    <main>
-        <img src="images/logo.png" alt="Logo" width="150">
-        <p>This website is deployed on AWS Amplify!</p>
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
+    <main class="container">
+        <div class="card">
+            <img src="images/logo.png" alt="Logo" class="logo-img" />
+            <h2>Welcome to My Website</h2>
+            <p>This site is deployed using <strong>AWS Amplify</strong>.</p>
+            <button onclick="showMessage()">Click Me</button>
+            <p id="message" class="message"></p>
+        </div>
     </main>
 
     <footer>
-        <p>© 2025 Jaywant Awhad. Hosted on AWS Amplify.</p>
+        <p>&copy; 2025 Aayush Chavan | Hosted on AWS Amplify</p>
     </footer>
 
     <script src="script.js"></script>

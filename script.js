@@ -1,9 +1,3 @@
 function showMessage() {
-    let messageElement = document.getElementById("message");
-    
-    if (messageElement.innerText === "") {
-        messageElement.innerText = "Hi, I am Jaywant Avhad";
-    } else {
-        messageElement.innerText = "";
-    }
+    document.getElementById("message").innerText = "Hello! This site is running on AWS Amplify.";
 }
